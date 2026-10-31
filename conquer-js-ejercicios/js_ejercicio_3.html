@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>03 · Lista dinámica · Conquer JS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="js_ejercicio3.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">CJ</span><span>Conquer <span class="brand-light">JS</span></span></a>
+      <span class="header-note">Ejercicio 03 / 09</span>
+    </header>
+    <main class="page-shell">
+      <a class="back-link" href="index.html"><span aria-hidden="true">←</span> Volver al índice</a>
+      <section class="exercise-panel">
+        <p class="eyebrow">Creación · Eliminación de elementos</p>
+        <h1>Lista dinámica</h1>
+        <p class="exercise-description">Escribe un elemento, agrégalo a la lista y elimínalo cuando quieras.</p>
+        <form id="item-form">
+          <div class="field">
+            <label for="item-input">Nuevo elemento</label>
+            <input class="text-input" id="item-input" name="item" type="text" placeholder="Por ejemplo, aprender JavaScript" autocomplete="off" />
+          </div>
+          <button class="button" type="submit">Agregar</button>
+        </form>
+        <p class="status" id="list-status" aria-live="polite"></p>
+        <ul class="item-list" id="item-list" aria-label="Elementos agregados"></ul>
+        <p class="empty-state" id="empty-list">Todavía no hay elementos en la lista.</p>
+      </section>
+    </main>
+    <footer class="site-footer"><p>Conquer JS <span aria-hidden="true">·</span> Ejercicio 03</p></footer>
+  </body>
+</html>

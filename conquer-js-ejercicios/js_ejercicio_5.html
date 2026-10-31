@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>05 · Calculadora sencilla · Conquer JS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="js_ejercicio5.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">CJ</span><span>Conquer <span class="brand-light">JS</span></span></a>
+      <span class="header-note">Ejercicio 05 / 09</span>
+    </header>
+    <main class="page-shell">
+      <a class="back-link" href="index.html"><span aria-hidden="true">←</span> Volver al índice</a>
+      <section class="exercise-panel">
+        <p class="eyebrow">Formularios · Operaciones</p>
+        <h1>Calculadora sencilla</h1>
+        <p class="exercise-description">Introduce dos números y selecciona la operación que quieres realizar.</p>
+        <form id="calculator-form" novalidate>
+          <div class="field">
+            <label for="first-number">Primer número</label>
+            <input class="number-input" id="first-number" type="number" step="any" inputmode="decimal" />
+          </div>
+          <div class="field">
+            <label for="second-number">Segundo número</label>
+            <input class="number-input" id="second-number" type="number" step="any" inputmode="decimal" />
+          </div>
+          <div class="button-row" aria-label="Operaciones">
+            <button class="button" type="button" data-operation="add">Sumar</button>
+            <button class="button button-secondary" type="button" data-operation="subtract">Restar</button>
+            <button class="button button-secondary" type="button" data-operation="multiply">Multiplicar</button>
+            <button class="button button-secondary" type="button" data-operation="divide">Dividir</button>
+          </div>
+        </form>
+        <p class="result" id="calculation-result" aria-live="polite"></p>
+        <p class="status status-error" id="calculator-error" aria-live="polite"></p>
+      </section>
+    </main>
+    <footer class="site-footer"><p>Conquer JS <span aria-hidden="true">·</span> Ejercicio 05</p></footer>
+  </body>
+</html>

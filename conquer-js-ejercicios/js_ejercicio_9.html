@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>09 · Lista de tareas · Conquer JS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="js_ejercicio9.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">CJ</span><span>Conquer <span class="brand-light">JS</span></span></a>
+      <span class="header-note">Ejercicio 09 / 09</span>
+    </header>
+    <main class="page-shell">
+      <a class="back-link" href="index.html"><span aria-hidden="true">←</span> Volver al índice</a>
+      <section class="exercise-panel">
+        <p class="eyebrow">Persistencia · LocalStorage</p>
+        <h1>Lista de tareas</h1>
+        <p class="exercise-description">Agrega tareas, márcalas como completadas y vuelve más tarde: se guardan en este navegador.</p>
+        <form id="task-form">
+          <div class="field">
+            <label for="task-input">Nueva tarea</label>
+            <input class="text-input" id="task-input" type="text" placeholder="¿Qué necesitas hacer?" autocomplete="off" />
+          </div>
+          <button class="button" type="submit">Agregar tarea</button>
+        </form>
+        <p class="status" id="task-status" aria-live="polite"></p>
+        <ul class="item-list" id="task-list" aria-label="Tus tareas"></ul>
+        <p class="empty-state" id="empty-tasks">No tienes tareas todavía.</p>
+        <div class="button-row">
+          <button class="button button-danger" id="clear-completed" type="button" disabled>Limpiar tareas completadas</button>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><p>Conquer JS <span aria-hidden="true">·</span> Ejercicio 09</p></footer>
+  </body>
+</html>

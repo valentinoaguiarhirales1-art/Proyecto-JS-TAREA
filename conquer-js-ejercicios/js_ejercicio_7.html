@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>07 · Generador de contraseñas · Conquer JS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="js_ejercicio7.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">CJ</span><span>Conquer <span class="brand-light">JS</span></span></a>
+      <span class="header-note">Ejercicio 07 / 09</span>
+    </header>
+    <main class="page-shell">
+      <a class="back-link" href="index.html"><span aria-hidden="true">←</span> Volver al índice</a>
+      <section class="exercise-panel">
+        <p class="eyebrow">Formularios · Generación aleatoria</p>
+        <h1>Generador de contraseñas</h1>
+        <p class="exercise-description">Elige una longitud y genera una contraseña con letras, números y caracteres especiales.</p>
+        <form id="password-form" novalidate>
+          <div class="field">
+            <label for="password-length">Longitud de la contraseña</label>
+            <input class="number-input" id="password-length" type="number" min="4" max="128" step="1" value="12" inputmode="numeric" />
+          </div>
+          <button class="button" type="submit">Generar contraseña</button>
+        </form>
+        <p class="status status-error" id="password-error" aria-live="polite"></p>
+        <div class="field password-output-field">
+          <label for="generated-password">Tu contraseña</label>
+          <input class="text-input" id="generated-password" type="text" readonly aria-live="polite" />
+        </div>
+        <p class="helper">La longitud debe estar entre 4 y 128 caracteres.</p>
+      </section>
+    </main>
+    <footer class="site-footer"><p>Conquer JS <span aria-hidden="true">·</span> Ejercicio 07</p></footer>
+  </body>
+</html>
