@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✨ Proyecto JS · Conquer Blocks ✨
+# *✨ Proyecto JS · Conquer Blocks ✨*
 
 *Nueve ejercicios interactivos para practicar JavaScript, el DOM y la lógica paso a paso.*
 
@@ -10,9 +10,9 @@
 
 ---
 
-## 📂 Ejercicios
+## *📂 Ejercicios*
 
-La carpeta [`conquer-js-ejercicios/`](./conquer-js-ejercicios/) contiene la página inicial y las nueve actividades. Cada ejercicio tiene su propio archivo HTML y su archivo JavaScript separado.
+***La carpeta [`conquer-js-ejercicios`](./conquer-js-ejercicios/) contiene la página inicial y las nueve actividades. Cada ejercicio tiene su propio archivo HTML y su archivo JavaScript separado.***
 
 | # | Ejercicio | Práctica |
 |---|---|---|
@@ -28,9 +28,9 @@ La carpeta [`conquer-js-ejercicios/`](./conquer-js-ejercicios/) contiene la pág
 
 ## 📄 Cómo abrir
 
-Abre [`conquer-js-ejercicios/index.html`](./conquer-js-ejercicios/index.html) en un navegador y selecciona una actividad desde el índice. No necesitas instalar paquetes.
+***Abre [`conquer-js-ejercicios/index.html`](./conquer-js-ejercicios/index.html) en un navegador y selecciona una actividad desde el índice. No necesitas instalar paquetes.***
 
-## ✅ Estructura
+## *✅ Estructura*
 
 ```text
 Proyecto-JS-TAREA/
@@ -39,20 +39,20 @@ Proyecto-JS-TAREA/
 └── README.md
 ```
 
-Los estilos compartidos están en `conquer-js-ejercicios/styles.css`. El código de cada ejercicio permanece en su propio archivo JavaScript.
+***Los estilos compartidos están en `conquer-js-ejercicios/styles.css`. El código de cada ejercicio permanece en su propio archivo JavaScript.***
 
-## ✨ Publicación
+## *✨ Publicación*
 
-GitHub Pages **no está configurado ni activado**. La publicación y el enlace público quedan pendientes hasta que se decida lanzar el proyecto.
+***GitHub Pages **no está configurado ni activado**. La publicación y el enlace público quedan pendientes hasta que se decida lanzar el proyecto.***
 
-## 📜 Licencia
+## *📜 Licencia*
 
-Este proyecto está bajo la licencia **MIT**. Consulta [`LICENSE`](./LICENSE) para leer sus términos.
+***Este proyecto está bajo la licencia **MIT**. Consulta [`LICENSE`](./LICENSE) para leer sus términos.***
 
 ---
 
 <div align="center">
 
-*Hecho para aprender, probar y seguir construyendo.* ✅
+*Hecho para aprender, probar y seguir construyendo.* ✅✨
 
 </div>
